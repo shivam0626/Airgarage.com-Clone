@@ -11,7 +11,7 @@ import ValuePropostion from "./ValueProposition";
 function IncreaseRevenue(){
     return(
         <Container maxW="5xl">
-            <Box m="60px 0px 0px 0px">
+            <Box mt="60px">
                 <Heading fontSize="32px">Increase Your Net Revenue</Heading>
                 <br />
                 <Text color="#a1a6af">Our proprietary technology enables us to offer lower operating costs to our partners meaning they take home up to 50% more every month than when they worked with our competition</Text>
