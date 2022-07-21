@@ -16,7 +16,7 @@ function Partners(){
                          alt="Partner with air Garage"
                          maxW="436px"
                          maxH="301.23px"
-                         p="10px 0px 0px"
+                         pt="10px"
                          borderBottomRadius="5px"
                         />
                     </Box>

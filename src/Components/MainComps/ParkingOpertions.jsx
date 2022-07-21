@@ -22,7 +22,8 @@ function ParkingOperations(){
                 <Heading m="40px 0px 10px 0px">Parking Operations for the 21st Century</Heading>
                 <Text>AirGarage modernizes parking assets with one streamlined service covering enforcement, payment collection, maintenance and more.</Text>
                 <Button size="lg"
-                    m="2rem 0rem 3rem 0rem"
+                    mt="2rem"
+                    mb="3rem"
                     p="1.8rem"
                     bg=" #fec"
                     color="#fa824c">
