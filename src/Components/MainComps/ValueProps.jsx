@@ -3,21 +3,14 @@ import {
     Heading,
     Box,
     Text,
-    Image,
     Flex
     } from "@chakra-ui/react";
 import ValuePropostion from "./ValueProposition";
 
-function IncreaseRevenue(){
+function ValuePropos(){
     return(
         <Container maxW="5xl">
             <Box mt="60px">
-                <Heading fontSize="32px">Increase Your Net Revenue</Heading>
-                <br />
-                <Text color="#a1a6af">Our proprietary technology enables us to offer lower operating costs to our partners meaning they take home up to 50% more every month than when they worked with our competition</Text>
-                <Image src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/619bf3a972f16c08c2a24729_stack-ag-p-1600.png" 
-                alt="revenue"
-                m="2rem" />
                 <Heading fontSize="32px">Our value proposition</Heading>
                 <br />
                 <Text color="#a1a6af">We've built the operating system for parking management, infusing technology into every facet of the business.</Text>
@@ -42,4 +35,4 @@ function IncreaseRevenue(){
         </Container>
     )
 }
-export default IncreaseRevenue;
+export default ValuePropos;
