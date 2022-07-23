@@ -21,18 +21,23 @@ function TalktoSales(){
             </Flex>
             < Partners />
             <Revenue />
+            <a href="/talktosales">
             <Links heading={"Find out how much you could be earning"}
                 desc={"Talk to our team today"}
             />
+            </a>
             <Automated />
             <PaymentCollection />
             <NoFees />
             <AllinOne />
             <FeaturedImage />
             <TopInvest />
+            <a href="/talktosales">
             <Links heading={"Find out how much you could be earning"}
                 desc={"Talk to our team today"}
             />
+            </a>
+            
             <Image w="160px" src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png" />
         </Container>
             

@@ -5,7 +5,6 @@ import { Box,
         Text,
         Button,
         } from "@chakra-ui/react";
-
 function ParkingOperations(){
     return (
         <Container maxW="4xl" centerContent>
@@ -21,14 +20,18 @@ function ParkingOperations(){
             <Box textAlign="center">
                 <Heading m="40px 0px 10px 0px">Parking Operations for the 21st Century</Heading>
                 <Text>AirGarage modernizes parking assets with one streamlined service covering enforcement, payment collection, maintenance and more.</Text>
+                <a href="/talktosales">
                 <Button size="lg"
                     mt="2rem"
                     mb="3rem"
                     p="1.8rem"
                     bg=" #fec"
-                    color="#fa824c">
+                    color="#fa824c"
+                    >
                     TALK TO SALES
                     </Button>
+                </a>
+            
             </Box>
         </Container>
     )

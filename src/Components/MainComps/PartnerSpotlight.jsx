@@ -28,9 +28,11 @@ function PartnerSpotLight(){
                     />
                 </Box>
             </Flex>
+            <a href="/talktosales">
             <Links 
                 heading={"Learn how we work for you"}
                 desc={"Talk to sales today"} />
+            </a>
         </Container>
     )
 }

@@ -1,10 +1,16 @@
 
 import './App.css';
+// import HomeNavbar from './Components/HomeNavbar';
 import AllRoutes from './Routes/AllRoutes';
+
 
 function App() {
   return (
-   <AllRoutes /> 
+    <div>
+      {/* <HomeNavbar /> */}
+      <AllRoutes />
+    </div>
+   
   );
 }
 

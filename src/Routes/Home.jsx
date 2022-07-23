@@ -1,4 +1,4 @@
-import Navbar from "../Components/HomeNavbar";
+import HomeNavbar from "../Components/HomeNavbar";
 import Deal from "../Components/MainComps/Deal";
 import Footer from "../Components/MainComps/Footer";
 import ParkingOperations from "../Components/MainComps/ParkingOpertions";
@@ -13,7 +13,7 @@ import ValuePropos from "../Components/MainComps/ValueProps";
 function Home(){
     return(
         <div>
-            <Navbar />
+            <HomeNavbar />
             <ParkingOperations />
             <Partners />
             <Revenue />
