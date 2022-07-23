@@ -10,10 +10,13 @@ function Deal(){
             mt="40px"
             mb="100px"
        >
-       <Links 
-            heading={"Get a better deal today."}
-            desc={"Send us your parking management contract and get a counter offer in 24 hours."}
-        />
+        <a href="/talktosales">
+            <Links 
+                heading={"Get a better deal today."}
+                desc={"Send us your parking management contract and get a counter offer in 24 hours."}
+            />
+        </a>
+       
         <Flex gap="3rem" mt="70px">
             <DealSubComponent 
             image={"https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ad7c7bc5cb09481db5a7b3_Image%20from%20iOS%20(4)-p-500.jpeg"}
