@@ -1,4 +1,5 @@
-import { Box, Flex, Link, Stack } from "@chakra-ui/layout";
+import { Box, Flex, Stack } from "@chakra-ui/layout";
+import {Link } from "react-router-dom";
 import { Text } from "@chakra-ui/react";
 
 function ParkingFooter(){
@@ -8,11 +9,9 @@ function ParkingFooter(){
             <Text color="white  ">©2021 AirGarage, Inc</Text>
             <Stack align={"center"}>
                 <Flex gap={"2rem"}>
-                    <a href="/">
-                    <Link style={{textDecoration:"none"}} color="white" >Homepage</Link>
-                    </a>
-                    <Link style={{textDecoration:"none"}} color="white" >Terms</Link>
-                    <Link style={{textDecoration:"none"}} color="white" >Contact us</Link>
+                    <Link to={"/"} style={{textDecoration:"none",color:"white"}}  >Homepage</Link>
+                    <Link style={{textDecoration:"none",color:"white"}} >Terms</Link>
+                    <Link style={{textDecoration:"none",color:"white"}} >Contact us</Link>
                 </Flex>
             </Stack>
         </Box>

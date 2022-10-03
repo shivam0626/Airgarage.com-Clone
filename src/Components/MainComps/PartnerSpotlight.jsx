@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Image,Text } from "@chakra-ui/react";
+import { Box, Container,Heading, Image,SimpleGrid,Text } from "@chakra-ui/react";
 import Links from "./Links";
 
 function PartnerSpotLight(){
@@ -8,7 +8,7 @@ function PartnerSpotLight(){
             <Box>
                 <Heading mb="20px">Partner Spotlight</Heading>
             </Box>
-            <Flex mb="60px">
+            <SimpleGrid columns={[1,null,2,2]} mb="60px">
                 <Box>
                     <Heading 
                     fontSize={"24px"}
@@ -27,7 +27,7 @@ function PartnerSpotLight(){
                     maxW={"lg"} 
                     />
                 </Box>
-            </Flex>
+            </SimpleGrid>
             <a href="/talktosales">
             <Links 
                 heading={"Learn how we work for you"}

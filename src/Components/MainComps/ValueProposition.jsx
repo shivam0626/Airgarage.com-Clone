@@ -12,7 +12,6 @@ function ValuePropostion({
             borderRadius="10px" 
             p="1rem 0.5rem 5rem"
             m="2rem 1rem 1rem 0rem" 
-            w="32%"
         >
             <Image 
                 src={icon}

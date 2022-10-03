@@ -1,18 +1,18 @@
-import { Box, Flex } from "@chakra-ui/layout";
+import { Box, SimpleGrid } from "@chakra-ui/layout";
 import LoginForm from "../Components/MainComps/LoginForm";
 import LoginLogo from "../Components/MainComps/LoginLogo";
 
 function Login(){
     return(
         <Box>
-            <Flex>
-                <Box w="37.5%">
+            <SimpleGrid columns={[1,null,1,2]} gap='8rem'>
+                <Box >
                     <LoginLogo />
                 </Box>
-                <Box w="60%">
+                <Box >
                     <LoginForm />
                 </Box>
-            </Flex>
+            </SimpleGrid>
             
         </Box>
     )

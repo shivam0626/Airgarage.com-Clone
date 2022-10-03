@@ -6,7 +6,7 @@ function DealSubComponent({
     description
 }){
     return(
-        <Box w="50%">
+        <Box>
             <Image 
                 src={image}
                 borderBottomRadius="10px"

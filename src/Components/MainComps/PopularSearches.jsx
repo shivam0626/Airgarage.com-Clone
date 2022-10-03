@@ -1,4 +1,4 @@
-import { Box, Container, Heading,Flex } from "@chakra-ui/layout";
+import { Box, Container, Heading,SimpleGrid} from "@chakra-ui/layout";
 import {Image, Text} from "@chakra-ui/react";
 
 function PopularSearches(){
@@ -8,11 +8,11 @@ function PopularSearches(){
                 <Heading size={"md"} fontWeight="500" >Popular searches</Heading>
             </Box>
             <Box mt="40px" mb="40px">
-                <Flex gap="2rem">
+                <SimpleGrid columns={[1,null,2,4]} gap="2rem">
                     <Box align="center">
                         <Image src="https://parking.airgarage.com/static/media/hollywood.3cda80f5.png"
-                            w="220px"
-                            mb="20px"
+                            // w="220px"
+                            // mb="20px"
                         />
                         <Heading 
                         fontSize={"24px"}
@@ -24,8 +24,8 @@ function PopularSearches(){
                     </Box>
                     <Box align="center">
                         <Image src="https://parking.airgarage.com/static/media/omaha.47180892.png"
-                            w="220px"
-                            mb="20px"
+                            // w="220px"
+                            // mb="20px"
                         />
                         <Heading 
                         fontSize={"24px"}
@@ -37,8 +37,8 @@ function PopularSearches(){
                     </Box>
                     <Box align="center">
                         <Image src="https://parking.airgarage.com/static/media/a2.29e68f98.png"
-                            w="220px"
-                            mb="20px"
+                            // w="220px"
+                            // mb="20px"
                         />
                         <Heading 
                         fontSize={"24px"}
@@ -50,8 +50,8 @@ function PopularSearches(){
                     </Box>
                     <Box align="center">
                         <Image src="https://parking.airgarage.com/static/media/cacti.0300cb19.png"
-                            w="220px"
-                            mb="20px"
+                            // w="220px"
+                            // mb="20px"
                         />
                         <Heading 
                         fontSize={"24px"}
@@ -61,7 +61,7 @@ function PopularSearches(){
                         </Heading>
                         <Text color="#a1a6af" lineHeight={"50px"} >21 Spots Available</Text>
                     </Box>
-                </Flex>
+                </SimpleGrid>
             </Box>
 
         </Container>

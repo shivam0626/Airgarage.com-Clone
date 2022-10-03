@@ -2,7 +2,7 @@ import {
     Container,
     Heading,
     Box,
-    Flex
+    SimpleGrid
     } from "@chakra-ui/react";
 import ValuePropostion from "./ValueProposition";
 function AllinOne(){
@@ -11,7 +11,7 @@ function AllinOne(){
                 <Box mt="60px">
                     <Heading fontSize="34px">All-in-one system</Heading>
                     <br />
-                    <Flex>
+                    <SimpleGrid columns={[1,null,2,3]} gap='2rem'>
                        <ValuePropostion 
                             icon={"https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f28039ee32a88bdfae6_cover.png"}
                             heading={"Best-in-class Economics"}
@@ -27,8 +27,8 @@ function AllinOne(){
                             heading={"Always On Enforcement"}
                             description={"AirGarage's proprietary network of enforcement officers scans day and night so you don't have to stress about violators."} 
                         />
-                    </Flex>
-                    <Flex >
+                    </SimpleGrid>
+                    <SimpleGrid columns={[1,null,2,3]} gap='2rem' >
                     <ValuePropostion
                         icon={"https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ac207311fbe70d9afcad50_bar.png"}
                         heading={"Reporting & Analytics"}
@@ -47,7 +47,7 @@ function AllinOne(){
                         description={"Your dashboard updates with each parking rental as it happens. No more waiting for end of month reports."}
                     
                     />
-                </Flex>
+                </SimpleGrid>
                 </Box>
             </Container>
     )

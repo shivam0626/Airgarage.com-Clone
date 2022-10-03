@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Heading, Text} from "@chakra-ui/react";
+import { Box, Container, Heading, SimpleGrid, Text} from "@chakra-ui/react";
 import ValuePropostion from "./ValueProposition";
 
 function Transparent(){
@@ -7,7 +7,7 @@ function Transparent(){
             <Box>
                 <Heading>Transparent and Data Driven</Heading>
                 <Text color="#a1a6af">We share all of our data with you in real time, so you’re always aware what’s happening on your property.</Text>
-                <Flex >
+                <SimpleGrid columns={[1,null,2,3]} gap='2rem'>
                     <ValuePropostion
                         icon={"https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60ac207311fbe70d9afcad50_bar.png"}
                         heading={"Reporting & Analytics"}
@@ -26,7 +26,7 @@ function Transparent(){
                         description={"Your dashboard updates with each parking rental as it happens. No more waiting for end of month reports."}
                     
                     />
-                </Flex>
+                </SimpleGrid>
             </Box>
         </Container>
     )

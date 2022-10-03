@@ -9,7 +9,7 @@ function TopInvestors(){
                 <Text color="#a1a6af" >AirGarage has raised funding from top-tier venture capital firms to bring high quality technology to parking operations.</Text>
             </Box>
             <Box mb="70px">
-            <SimpleGrid mt="40px" columns={3} >
+            <SimpleGrid columns={[2,null,2,3]} mt="40px" >
                 <Box align={"center"} >
                     <Image 
                     src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/6168686def0a2b1a9e995403_ah1.png"

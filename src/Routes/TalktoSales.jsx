@@ -1,4 +1,4 @@
-import { Container,Flex } from "@chakra-ui/layout";
+import { Container, SimpleGrid } from "@chakra-ui/layout";
 import {Image} from "@chakra-ui/react";
 import AllinOne from "../Components/MainComps/AllinOne";
 import Automated from "../Components/MainComps/Automated";
@@ -15,29 +15,24 @@ import TopInvest from "../Components/MainComps/TopInvest";
 function TalktoSales(){
     return(
         <Container maxW="5xl" centerContent>
-            <Flex mt="70px" mb="40px" gap="10rem">
+            <SimpleGrid columns={[1,null,2,2]} mt="70px" mb="40px" gap="10rem">
                 <ParkingOperations />
                 <DemoForm />
-            </Flex>
+            </SimpleGrid>
             < Partners />
             <Revenue />
-            <a href="/talktosales">
             <Links heading={"Find out how much you could be earning"}
                 desc={"Talk to our team today"}
             />
-            </a>
             <Automated />
             <PaymentCollection />
             <NoFees />
             <AllinOne />
             <FeaturedImage />
             <TopInvest />
-            <a href="/talktosales">
             <Links heading={"Find out how much you could be earning"}
                 desc={"Talk to our team today"}
             />
-            </a>
-            
             <Image w="160px" src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5d55f8a49a649a59aab64b1c_airgarage-logo.png" />
         </Container>
             

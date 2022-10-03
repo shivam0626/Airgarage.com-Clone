@@ -3,7 +3,7 @@ import {
     Heading,
     Box,
     Text,
-    Flex
+    SimpleGrid
     } from "@chakra-ui/react";
 import ValuePropostion from "./ValueProposition";
 
@@ -14,7 +14,7 @@ function ValuePropos(){
                 <Heading fontSize="32px">Our value proposition</Heading>
                 <br />
                 <Text color="#a1a6af">We've built the operating system for parking management, infusing technology into every facet of the business.</Text>
-                <Flex>
+                <SimpleGrid columns={[1,null,2,3]} gap='2rem'>
                    <ValuePropostion 
                         icon={"https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5f1a1f28039ee32a88bdfae6_cover.png"}
                         heading={"Best-in-class Economics"}
@@ -30,7 +30,7 @@ function ValuePropos(){
                         heading={"Always On Enforcement"}
                         description={"AirGarage's proprietary network of enforcement officers scans day and night so you don't have to stress about violators."} 
                     />
-                </Flex>
+                </SimpleGrid>
             </Box>
         </Container>
     )

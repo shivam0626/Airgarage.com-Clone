@@ -1,5 +1,5 @@
-import { Box, Heading, Link,Text } from "@chakra-ui/layout";
-
+import { Box, Heading, Text } from "@chakra-ui/layout";
+import {Link} from "react-router-dom";
 function Links({heading,desc}){
     return(
     <Box textAlign={"center"}
@@ -9,7 +9,7 @@ function Links({heading,desc}){
         mb="70px"
         borderRadius="10px"
     >
-        <Link 
+        <Link to={"/takltosales"}
             style={{textDecoration:"none"}} 
             lineHeight="42px"
             >

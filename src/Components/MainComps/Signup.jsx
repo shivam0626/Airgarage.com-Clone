@@ -1,20 +1,20 @@
-import { Box, Flex, Heading } from "@chakra-ui/layout";
+import { Box, Heading } from "@chakra-ui/layout";
 import LoginLogo from "./LoginLogo";
-import { Button, Checkbox, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
+import { Button, Checkbox, Input, InputGroup, InputLeftElement, Text,SimpleGrid } from "@chakra-ui/react";
 import { AtSignIcon, InfoIcon, LockIcon } from "@chakra-ui/icons";
 
 function Signup(){
     return(
         <Box>
-            <Flex>
-                <Box w="37.5%">
+            <SimpleGrid columns={[1,null,1,2]} gap='8rem'>
+                <Box >
                     <LoginLogo />
                 </Box>
                 <Box w="60%">
                 <Box align="center" mt="40px" >
                 <Heading fontSize={"26px"} fontWeight={"500"}>Sign up for AirGarage</Heading>
             </Box>
-            <Box w="50%" ml="25%" mt="30px">
+            <Box  mt="30px">
                 <Text fontSize="14px" fontWeight="500" mb="15px" >First Name</Text>
                 <InputGroup>
                     <InputLeftElement
@@ -90,7 +90,7 @@ function Signup(){
                 </Button>
             </Box>
                 </Box>
-            </Flex>
+            </SimpleGrid>
         </Box>
     )
 }

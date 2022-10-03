@@ -1,5 +1,5 @@
-import { Box, Container, Heading } from "@chakra-ui/layout";
-import {Text, Flex, Input, Select, Button} from "@chakra-ui/react";
+import { Box, Container, Heading, SimpleGrid } from "@chakra-ui/layout";
+import {Text,Input, Select, Button} from "@chakra-ui/react";
 function SearchParking(){
     return (
         <Container mt="40px" mb="40px" maxW="5xl">
@@ -18,7 +18,7 @@ function SearchParking(){
                 </Text>
             </Box>
             <Box>
-                <Flex gap="3rem">
+                <SimpleGrid columns={[1,null,3,3]} gap="3rem">
                     <Box>
                         <Text fontSize="15px" fontWeight={"500"} >LOCATION</Text>
                         <Input w="450px" size="lg" mt="15px" variant="filled"  />
@@ -43,7 +43,7 @@ function SearchParking(){
                             SEARCH
                         </Button>
                     </Box>
-                </Flex>
+                </SimpleGrid>
             </Box>
         </Container>
     )

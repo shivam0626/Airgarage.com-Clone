@@ -5,7 +5,7 @@ function AutomatedSubPart({
     subheads,
 }){
     return(
-        <Box width={"40%"}>
+        <Box>
             <Heading>{heads}</Heading>
             <Heading size="md">{subheads}</Heading>
         </Box>

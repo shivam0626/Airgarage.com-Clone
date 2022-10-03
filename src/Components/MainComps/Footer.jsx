@@ -1,4 +1,4 @@
-import { Box,Flex,Image,Text,Container, Spacer, Link, Divider,} from "@chakra-ui/react";
+import { Box,Flex,Image,Text,Container, Spacer, Link, Divider, SimpleGrid,} from "@chakra-ui/react";
 
 function Footer(){
     return(
@@ -16,7 +16,7 @@ function Footer(){
                 <Spacer />
                     <Text pb="50px" pt="20px" mb="50px"  mt="30px" color="#a1a6af">21st Century Parking Operator</Text>
             </Flex>
-            <Flex gap="13.5rem">
+            <SimpleGrid  columns={[2,null,3,4]} >
                 <Box pb="50px">
                     <Text color="#a1a6af">Company</Text>
                     <Link style={{textDecoration:"none"}} color="#dd703f" fontSize="12px">About</Link><br />
@@ -39,13 +39,13 @@ function Footer(){
                     <Link style={{textDecoration:"none"}} color="#dd703f" fontSize="12px">Payment collection</Link><br />
                     <Link style={{textDecoration:"none"}} color="#dd703f" fontSize="12px">Gate arm altrnative</Link><br />
                 </Box>
-                <Box pb="50px" textAlign="right">
+                <Box pb="50px" >
                     <Text color="#a1a6af">Find Parking</Text>
                     <Link style={{textDecoration:"none"}} color="#dd703f" fontSize="12px">on iOS app</Link><br />
                     <Link style={{textDecoration:"none"}} color="#dd703f" fontSize="12px">on Android app</Link><br />
                     <Link style={{textDecoration:"none"}} color="#dd703f" fontSize="12px">on web</Link><br />
                 </Box>
-            </Flex>  
+            </SimpleGrid>  
             <Divider borderColor="#dd703f" />
             <Text pb="10px" pt="30px" color="#a1a6af">© 2022 AirGarage Inc</Text>
             </Container>

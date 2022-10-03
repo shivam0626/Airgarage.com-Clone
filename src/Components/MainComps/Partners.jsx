@@ -4,13 +4,14 @@ import {
     Box,
     Image,
     Heading,
-    Text
+    Text,
+    SimpleGrid
 } from "@chakra-ui/react";
 
 function Partners(){
     return(
         <Container maxW="5xl">
-             <Flex gap="2rem">
+             <SimpleGrid columns={[1,null,2,2]} gap="2rem">
                     <Box>
                         <Image src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60a6d928e7187f18da1ab8c1_color-garage-p-500.png"
                          alt="Partner with air Garage"
@@ -38,7 +39,7 @@ function Partners(){
                                  maxW="65px" />
                         </Flex>
                     </Box>
-                </Flex>
+                </SimpleGrid>
         </Container>
     )
 }
